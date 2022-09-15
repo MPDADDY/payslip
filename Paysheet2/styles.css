@@ -1,0 +1,161 @@
+.address {
+    margin-left: auto;
+    margin-right: auto;
+    max-width:802px;
+    height:auto;
+    /*background-color: rgb(157, 157, 101);*/
+  }
+.address-left {
+    position: relative;
+    top: 140px;
+    float: left;
+    width: 55%;
+    height: 100%;
+    /*background-color: rgb(64, 60, 60);*/
+}
+.dtails {
+    /*top: 260px;*/
+    line-height: 2.5rem;
+    position: relative;
+    color: rgb(14, 12, 12);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px;
+  }
+.address-right {
+  float: left;  
+  width:45%;
+  height: 100%;
+  /*background-color: aqua;*/
+}
+  /*company address*/
+  .camp-addr{
+    top: 20px;
+    height: 25%;
+    position: relative;
+    line-height:0.7em;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 2px;
+  }
+  .employee-dtails{
+    /*top: 170px;*/
+    top: 60px;
+    width: 100%;
+    position: relative;
+    background-color: #d3cccc !important;
+    height:auto;
+  
+  }
+  .left {
+    position: relative;
+    float: left;
+    width:40%;
+    background-color: aqua;
+    height: 100%;
+  }
+  .right {
+    width: 60%;
+    float: left;
+    height: 100%;
+  }
+ 
+/*table*/
+
+.table {
+    position: relative;
+    width: 100%;
+    padding: 20px 15px;
+    background-color: #fff;
+    max-width: 802px;
+    margin: 20px auto 40px auto;
+    height: 1300px;
+  }
+  table{
+    bottom: 100px;
+    position: relative;
+    top: 100px;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px auto 15px auto;
+    background-color: #fff;
+    height: auto;
+    padding: 20px;
+
+  }
+  .table2{
+    margin-bottom:30px ;
+  }
+  th {
+    padding: 5px;
+  }
+  tr td{
+    padding: 3px;
+  }
+  table  p{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2.cm;
+    padding: 1px;
+  }
+  /**netpay*/
+  td.rightend{
+   border-left: none;
+  }
+  td.leftend{
+    border-right: none;
+    border-color: #fff;
+  }
+  /*essentials*/
+
+  *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+    background-color: rgba(161, 150, 150,0.1);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: auto;
+  }
+html {
+    font-size: 14px;
+}
+.displayno {
+    visibility: hidden;
+  }
+  .smallfont td p{
+    font-size: 13.5px;
+    font-weight: 500;
+    color: rgb(5, 5, 20);
+  }
+
+  .addr-properties{
+    line-height:1.em;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 1.5px;
+    margin-bottom: 5px;
+    background-color:transparent;
+  }
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  a{
+    color:rgb(6, 6, 81);
+    text-decoration: none;
+  }
+  table p {
+    color:rgb(31, 30, 30);
+  }
+
+  
+
+ 
+  
